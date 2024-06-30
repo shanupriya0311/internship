@@ -1,0 +1,109 @@
+<html>
+    <head>
+        
+            <style>
+            
+
+              ul{
+                    list-style-type:none;
+                    margin:0;
+                    padding:0;
+                    overflow:auto;
+                   background-color: rgba(113, 106, 106, 0.653);
+                }
+               li{
+                    float:left;
+                   
+                }
+                 li a{
+                    display:block;
+                   text-decoration:none;
+                   font-size:30px;
+                    color:white;
+                    padding:70px 40px;
+                    text-align:center;
+
+                }
+             li a:hover{
+                    background-color:black;
+                }
+                section {
+    padding: 60px 20px;
+    min-height: 100vh;
+}
+
+#home {
+    background-color: hsl(204, 35%, 43%);
+}
+
+#about {
+    background-color: hsl(258, 72%, 18%);
+}
+
+#news {
+    background-color: #692b47;
+}
+
+#contact {
+    background-color: hsl(0, 0%, 72%);
+
+                
+                </style>
+        
+    </head>
+    <body>
+       
+        <ul id="navbar">
+            <li>
+                <a class="active" href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#news">News</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                
+            </ul>
+            <section id="home">
+
+                <h1>Home</h1>
+                <p style="text-align: center;">welcome to our website.</p>
+                </section>
+                <section id="news">
+    
+                    <h1>News</h1>
+                    <p style="text-align: center;">we have so many exiting things in our website.</p>
+                    </section>
+                    <section id="contact">
+    
+                        <h1>Contact</h1>
+                        <p style="text-align: center;">linkedin-XXXXXXXX
+                            call-12324567891;
+                            instagram-xxxxxxxxxx;
+                        </p>
+                        </section>
+                        <section id="about">
+    
+                            <h1>about</h1>
+                            <p style="text-align: center;">we have more than 10 years experience in this field .so we have an lot of interesting things</p>
+                            </section>
+                            <script>
+                                window.addEventListener('scroll', function() {
+  var navbar = document.getElementById('navbar');
+  if (window.pageYOffset > 0) {
+    navbar.style.backgroundColor = '#555';
+  } else {
+    navbar.style.backgroundColor = '#333';
+  }
+});
+
+
+                                </script>
+            
+                    </body>
+                    </html>
+
